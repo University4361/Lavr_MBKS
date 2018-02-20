@@ -1,0 +1,7 @@
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\bin\Debug\ClientApp_lab1.exe.config
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\bin\Debug\ClientApp_lab1.exe
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\bin\Debug\ClientApp_lab1.pdb
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\obj\Debug\ClientApp_lab1.csprojResolveAssemblyReference.cache
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\obj\Debug\ClientApp_lab1.csproj.CoreCompileInputs.cache
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\obj\Debug\ClientApp_lab1.exe
+C:\Users\Lavrov\source\repos\University\MBKS\ClientApp_lab1\ClientApp_lab1\obj\Debug\ClientApp_lab1.pdb
