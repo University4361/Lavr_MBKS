@@ -5,24 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lavrov_lab2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="369.22" Width="552.311">
+        Title="MainWindow" Height="383.092" Width="565.116">
     <Grid>
         <GroupBox Header="Users" Margin="10,10,10,149">
             <Grid>
                 <StackPanel HorizontalAlignment="Stretch">
                     <DockPanel LastChildFill="True" Margin="0 5 0 5">
-                        <RadioButton Name="FirstRB" Content="First" VerticalAlignment="Center" Margin="10 0 10 0"/>
-                        <TextBox Name="FirstTB" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Width="Auto" Margin="5"/>
+                        <RadioButton Name="FirstRB" VerticalAlignment="Center" Margin="10 0 10 0"/>
+                        <TextBox Name="FirstTB" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Width="Auto"/>
                     </DockPanel>
 
                     <DockPanel LastChildFill="True" Margin="0 5 0 5">
-                        <RadioButton Name="SecondRB" Content="Second" VerticalAlignment="Center" Margin="10 0 10 0"/>
+                        <RadioButton Name="SecondRB" VerticalAlignment="Center" Margin="10 0 10 0"/>
                         <TextBox Name="SecondTB" Height="23" TextWrapping="Wrap" VerticalAlignment="Center"/>
                     </DockPanel>
 
                     <DockPanel LastChildFill="True" Margin="0 5 0 5">
-                        <RadioButton Name="ThridRB" Content="Thrid" VerticalAlignment="Center" Margin="10 0 10 0"/>
+                        <RadioButton Name="ThridRB" VerticalAlignment="Center" Margin="10 0 10 0"/>
                         <TextBox Name="ThridTB" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+                    </DockPanel>
+
+                    <DockPanel LastChildFill="True" Margin="0 5 0 5">
+                        <TextBox Name="alph" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="35 0 0 0"/>
                     </DockPanel>
                 </StackPanel>
 

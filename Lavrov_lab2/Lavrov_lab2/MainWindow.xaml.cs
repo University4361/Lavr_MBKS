@@ -8,12 +8,14 @@ namespace Lavrov_lab2
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string _template = "abcdefghijklmnopqrstuvwxyz";
         private string _currentCode;
         private AccessUser _currentAccessUser;
 
         public MainWindow()
         {
             InitializeComponent();
+            alph.Text = _template;
         }
 
         private void ClearButton_Click(object sender, RoutedEventArgs e)
@@ -32,7 +34,9 @@ namespace Lavrov_lab2
             if (ThridRB.IsChecked ?? false)
                 _currentCode = ThridTB.Text;
 
-            _currentAccessUser = new AccessUser(_currentCode);
+            _template = alph.Text;
+
+            _currentAccessUser = new AccessUser(_currentCode, _template);
         }
 
         private void InputTB_TextChanged(object sender, TextChangedEventArgs e)

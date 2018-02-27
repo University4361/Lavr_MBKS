@@ -5,12 +5,13 @@ namespace Lavrov_lab2
 {
     public class AccessUser
     {
-        private const string _template = "abcdefghijklmnopqrstuvwxyz";
+        private string _template;
         public Dictionary<char, byte> AccessDictionary;
 
-        public AccessUser(string accessString)
+        public AccessUser(string accessString, string template)
         {
             InitializeDictionary(accessString);
+            _template = template;
         }
 
         private void InitializeDictionary(string accessString)
